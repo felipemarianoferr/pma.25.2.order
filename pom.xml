@@ -10,7 +10,7 @@
 	</parent>
 
 	<groupId>store</groupId>
-	<artifactId>account</artifactId>
+	<artifactId>order</artifactId>
 	<version>1.0.0</version>
 	
 	<properties>
@@ -34,6 +34,13 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>product</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>
